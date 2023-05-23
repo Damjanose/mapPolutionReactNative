@@ -1,35 +1,33 @@
-import { StyleSheet, Text, View } from "react-native";
-import { Link } from 'expo-router'
+import React from 'react';
+import MapView, { Marker } from 'react-native-maps';
+import { StyleSheet, View } from 'react-native';
 
-export default function Page() {
-    return (
-        <View style={styles.container}>
-            <View style={styles.main}>
-                <Text style={styles.title}>Hello map</Text>
-                <Link href='/app/(tabs)/'>Go to home</Link>
-            </View>
-        </View>
-    );
+export default function App() {
+  const lat = 41.327953
+  const long = 19.819025
+
+  return (
+    <View style={styles.container}>
+      <MapView
+        initialRegion={{
+        latitude: lat,
+        longitude: long,
+        latitudeDelta: 0.0922,
+        longitudeDelta: 0.0421,
+        }}
+        style={styles.map}>
+      <Marker coordinate={{ latitude: lat, longitude: long }} />
+      </MapView>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: "center",
-        padding: 24,
-    },
-    main: {
-        flex: 1,
-        justifyContent: "center",
-        maxWidth: 960,
-        marginHorizontal: "auto",
-    },
-    title: {
-        fontSize: 64,
-        fontWeight: "bold",
-    },
-    subtitle: {
-        fontSize: 36,
-        color: "#38434D",
-    },
+  container: {
+    flex: 1,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
+  },
 });
