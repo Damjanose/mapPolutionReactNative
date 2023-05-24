@@ -117,6 +117,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     width: '80%',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   modalTitle: {
     fontSize: 20,
@@ -132,10 +133,11 @@ const styles = StyleSheet.create({
   },
   modalDescription: { marginBottom: 10, textAlign: 'center' },
   closeButton: {
-    backgroundColor: '#ccc',
+    backgroundColor: '#be4949',
     padding: 10,
     borderRadius: 4,
-    alignSelf: 'flex-end',
+    alignSelf: 'center',
+
   },
   closeButtonLabel: { color: '#fff', fontWeight: 'bold' },
 });
