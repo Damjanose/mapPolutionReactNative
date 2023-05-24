@@ -9,10 +9,11 @@ export default function Page() {
       <ImageBackground source={image} resizeMode="cover" style={styles.image}>
         <Text style={[styles.title, styles.colorWhite]}>Pollution map</Text>
         <Text style={[styles.subtitle, styles.colorWhite]}>As high level of pollution we decided to build an application to let people know about some of the most polluted places in Tirana. </Text>
-        <Text style={[styles.padTop20, styles.colorWhite]}>So if you are interested
-        <Link href="/map" style={[styles.link, styles.colorWhite]}> Click here </Link>
-          and you will be redirected to a map
-        </Text>
+        <View style={[styles.padTop20]}>
+          <Text style={styles.colorWhite}>So if you are interested</Text>
+          <Link href="/map" style={[styles.link, styles.colorWhite]}> Click here </Link>
+          <Text style={styles.colorWhite}>and you will be redirected to a map</Text>
+        </View>
       </ImageBackground>
     </View>
   );
@@ -44,4 +45,5 @@ const styles = StyleSheet.create({
   },
   padTop20: { paddingTop: 20},
   colorWhite: { color: '#fff' },
+  flex: { display: 'flex', flexDirection: 'row', justifyContent: 'center' },
 });
