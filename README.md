@@ -1,6 +1,6 @@
 # Map Polution React Native
 
-Clone the project `git clone`
+Clone the project `git clone https://github.com/Damjanose/mapPolutionReactNative.git`
 
 Change directory ` cd ./mapPolutionReactNative`
 
