@@ -2,7 +2,7 @@
 
 Clone the project `git clone https://github.com/Damjanose/mapPolutionReactNative.git`
 
-Change directory ` cd ./mapPolutionReactNative`
+Change directory `cd ./mapPolutionReactNative`
 
 Install node modules `npm i`
 
