@@ -1,7 +1,9 @@
-# Expo Router Example
+# Map Polution React Native
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
-
+Clone the project ``` git clone ```
+Change directory ``` cd ./mapPolutionReactNative ```
+Install node modules ``` npm i ```
+Run project ``` npm start ```
 ## 🚀 How to use
 
 ```sh
