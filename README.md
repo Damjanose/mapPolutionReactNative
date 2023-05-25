@@ -1,9 +1,10 @@
 # Map Polution React Native
 
-Clone the project ``` git clone ```
-Change directory ``` cd ./mapPolutionReactNative ```
-Install node modules ``` npm i ```
-Run project ``` npm start ```
+Clone the project ```sh git clone ```
+Change directory ```sh cd ./mapPolutionReactNative ```
+Install node modules ```sh npm i ```
+Run project ```sh npm start ```
+
 ## 🚀 How to use
 
 ```sh
