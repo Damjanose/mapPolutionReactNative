@@ -8,14 +8,12 @@ Install node modules `npm i`
 
 Run project `npm start`
 
-## 🚀 How to use
+## 🚀 Required enviroment to run project
 
 ```sh
-npx create-react-native-app -t with-router
+  Android studio: 
+    - create emulator and run `start` command
+    
+  Expo:
+    - install expo application in your phone and scan QR code
 ```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
